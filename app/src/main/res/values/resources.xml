@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lite Launcher</string>
+    <string name="settings">Settings</string>
+    <string name="cannot_open">Couldn\'t open that app</string>
+    <string name="move">Move</string>
+    <string name="hide">Hide</string>
+    <string name="choose_apps">Choose apps</string>
+    <string name="app_info">App info</string>
+
+    <!-- Gruvbox dark -->
+    <color name="bg0">#282828</color>
+    <color name="bg1">#3C3836</color>
+    <color name="fg">#EBDBB2</color>
+    <color name="gray">#A89984</color>
+    <color name="yellow">#FABD2F</color>
+    <color name="orange">#FE8019</color>
+
+    <!-- A solid window background means the first frame needs no decoding, and
+         leaving out the wallpaper avoids holding a full-screen bitmap. -->
+    <style name="LauncherTheme" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/bg0</item>
+        <item name="android:colorBackground">@color/bg0</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MenuDialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">@color/bg1</item>
+        <item name="android:textColorPrimary">@color/fg</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+        <item name="android:textColorAlertDialogListItem">@color/fg</item>
+        <item name="android:colorAccent">@color/yellow</item>
+        <item name="android:colorControlNormal">@color/gray</item>
+        <item name="android:colorControlHighlight">#66FABD2F</item>
+    </style>
+</resources>
