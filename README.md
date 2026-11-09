@@ -29,7 +29,7 @@ The APK is written to `app/build/outputs/apk/release/app-release.apk`.
 
        adb connect <TV-IP>:5555
        adb install -r app/build/outputs/apk/release/app-release.apk
-       adb shell cmd package set-home-activity com.tvlauncher.lite/.LauncherActivity
+       adb shell cmd package set-home-activity com.litelauncher/.LauncherActivity
 
 4. Press Home on the remote.
 
@@ -39,7 +39,7 @@ On this TV, FLauncher has been uninstalled and Google's launcher is disabled, so
 Lite Launcher is the only full home app. Enable Google's launcher first:
 
     adb shell pm enable com.google.android.tvlauncher
-    adb uninstall com.tvlauncher.lite
+    adb uninstall com.litelauncher
 
 ## Background changes made on this TV
 

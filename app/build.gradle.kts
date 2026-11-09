@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tvlauncher.lite"
+    namespace = "com.litelauncher"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.tvlauncher.lite"
+        applicationId = "com.litelauncher"
         minSdk = 21
         targetSdk = 36
         versionCode = 1

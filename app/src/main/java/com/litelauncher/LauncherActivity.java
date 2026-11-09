@@ -1,4 +1,4 @@
-package com.tvlauncher.lite;
+package com.litelauncher;
 
 import android.app.Activity;
 import android.app.AlertDialog;

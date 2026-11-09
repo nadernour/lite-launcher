@@ -1,4 +1,4 @@
-package com.tvlauncher.lite;
+package com.litelauncher;
 
 import android.content.Context;
 import android.content.res.Resources;
